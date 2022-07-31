@@ -1,0 +1,166 @@
+/* HTML Element Styling */
+
+#Skills
+{
+  margin-top:10px;
+  margin-bottom: 70px;
+}
+
+body
+{
+  font-family: "Montserrat";
+  background-color: #000;
+}
+
+h1
+{
+  font-family: "Space Grotesk";
+  font-size: 5rem;
+  font-weight:500;
+}
+
+h2
+{
+  color: white;
+  font-family: "Space Grotesk";
+  font-size: 3.8rem;
+  font-weight:400;
+}
+
+h3
+{
+  color: white;
+  font-family: "Space Grotesk";
+  font-size: 2.4rem;
+  font-weight:300;
+}
+
+hr
+{
+  /* position: absolute;
+  top: 97vh;
+  left: 48.5vw; */
+  opacity: 1;
+}
+
+/* -----Class Styling----- */
+
+.center-item-horizontal
+{
+  justify-content: center;
+}
+
+.color-filter
+{
+  filter: invert(40%) sepia(98%) saturate(2762%) hue-rotate(218deg) brightness(102%) contrast(101%);
+}
+
+.main-image
+{
+  margin-top: 39px;
+  margin-right: 15px;
+  height:94.5%;
+  position: absolute;
+  right: 0;
+  transform: scale(0.96);
+}
+
+.mono-font
+{
+  font-family: "Space Mono";
+  color: #5271ff;
+}
+
+.name-row
+{
+  color: #fff;
+  font-size: 1.5rem;
+  height:100vh;
+}
+
+.navbar-brand
+{
+  padding-left: 10px;
+}
+
+.navbar-dark
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.section-div
+{
+  border-top: 10px solid #5271ff;
+  border-radius: 5px;
+  width:50px;
+  margin-left: 48vw;
+}
+
+.skill-headings
+{
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.skill-list-text
+{
+  font-size: 1.3rem;
+}
+
+.skill-row
+{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-decoration-line: underline;
+  text-decoration-color: #5271ff;
+  text-decoration-style: wavy;
+}
+
+@media (max-width:767px)
+{
+  h1
+  {
+    font-size: 4rem;
+  }
+
+  .name-row
+  {
+    font-size: 1.2rem;
+  }
+
+  .main-image
+  {
+    display: none;
+  }
+
+  .section-div
+  {
+    border-top: 10px solid #5271ff;
+    border-radius: 5px;
+    width:50px;
+    margin-left: 43vw;
+  }
+
+  /* .main-image
+  {
+    margin-top: 98%;
+    margin-right: -45%;
+    height:94.5%;
+    position: absolute;
+    right: 0;
+    transform: rotate(45deg) scale(0.96);
+  } */
+}
+
+/* .main-image Settings
+{
+  margin-top: 365px;
+  margin-right: -172px;
+  margin-top: 98%;
+  margin-right: -45%;
+  margin-top: 90%;
+  margin-right: -90%;
+} */
