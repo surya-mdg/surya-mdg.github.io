@@ -8,7 +8,8 @@
 
 #Projects
 {
-  margin:100px 0;
+  margin-top:100px;
+  margin-bottom:150px;
   /* padding:0 100px; */
 }
 
@@ -16,6 +17,12 @@ body
 {
   font-family: "Montserrat";
   background-color: #000;
+}
+
+footer
+{
+  text-align: center;
+  margin:50px 0;
 }
 
 h1
@@ -104,6 +111,17 @@ span
 .color-filter
 {
   filter: invert(40%) sepia(98%) saturate(2762%) hue-rotate(218deg) brightness(102%) contrast(101%);
+}
+
+.fa-brands
+{
+  margin:0 20px;
+  color: #fff;
+}
+
+.fa-brands:hover
+{
+  color: #5271ff;
 }
 
 .front-text
