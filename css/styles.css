@@ -83,6 +83,13 @@ span
   text-decoration: underline;
 }
 
+.buffer-text
+{
+  font-family: "Space Mono";
+  color: #000;
+  font-size:1.6rem;
+}
+
  .card
 {
   margin:0 50px;
